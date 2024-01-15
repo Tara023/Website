@@ -1,0 +1,35 @@
+h1{
+    color: black;
+    font-size: 30px;
+}
+
+h2{
+    color: black;
+    font-size: 30px;
+}
+
+body{   
+    background-color: antiquewhite;
+    color: lightpink;
+    font-family: 'Caprasimo', serif;
+    font-size: 30px;
+}
+
+p{  
+    color:black;
+    font-size: 24px;
+}
+footer{     
+    color: darkslategrey;
+    font-size: 14px;
+}
+
+header{ 
+    color: black;
+    font-size: 60px;
+}
+
+section{    
+    color: black;
+    font-size: 10px;
+}
