@@ -1,6 +1,15 @@
+/* Website Styles */
+
+*h1,    h2  { 
+    font-size: 100%;
+    font-weight: lighter;
+}*
+
 h1{
+    text-align: center;
     color: black;
     font-size: 30px;
+    font-weight: 900;
 }
 
 h2{
@@ -12,12 +21,13 @@ body{
     background-color: antiquewhite;
     color: lightpink;
     font-family: 'Caprasimo', serif;
-    font-size: 30px;
+    font-size: 14px;
 }
 
 p{  
     color:black;
     font-size: 24px;
+    line-height: 3;
 }
 footer{     
     color: darkslategrey;
