@@ -2,19 +2,28 @@
 
 * {
     font-size: 100%;
+    margin: 0;
+    line-height: 2;
+    background-color: lightpink;
+    /*border: 1px solid red;*/
 }
 
 h1, h2{
     font-weight: 900;
-    font-style: italic;
+    font-style: normal;
+    margin-bottom: 10px;
+}
+
+.title{
+    font-size: 48px;
+    text-decoration: underline;
 }
 
 h1{
     color: black;
-    font-size: 50px;
-    background-color: antiquewhite;
+    font-size: 65px;
     text-align: center;
-    font-weight: lighter;
+    font-weight: 100px;
     /* short hand with one value will after all other selectors will override this
     /* margin: 50px; */
     /* Short-hand with 2 values */
@@ -24,25 +33,34 @@ h1{
 body{ 
     font-family: 'Abril Fatface', serif;
     font-size: 30px;
+    text-align: justify;
 }
 
 p{  
     color:black;
-    font-weight: lighter;
+    font-weight: 100px;
     line-height: 27px;
+    margin: 15px 0;
 
 }
 footer{     
     color: darkslategrey;
+    padding: 30px;
 }
 
 header{ 
     color: black;
     text-align: center;
+    padding: 30px;
+    border-bottom: 5px solid grey;
 }
 
 section{    
+    border: 1px solid gainsboro;
+    background-color: lightslategray;
+    margin: 30px;
     color: black;
+    padding: 30px;
 }
 
 a{
@@ -60,4 +78,8 @@ a:hover{
 
 a:visited{
     color: gray;
+}
+
+ul, ol{
+    margin: 20px 0;
 }
