@@ -4,8 +4,16 @@
     font-size: 100%;
     margin: 0;
     line-height: 2;
-    background-color: lightpink;
     /*border: 1px solid red;*/
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+img{
+    max-width: 600px;
 }
 
 h1, h2{
@@ -17,6 +25,14 @@ h1, h2{
 .title{
     font-size: 48px;
     text-decoration: underline;
+}
+
+.banner{
+    height: 350px;
+    background-image: url(images/unnamed.jpg);
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-position: center;
 }
 
 h1{
@@ -31,6 +47,8 @@ h1{
 
 }
 body{ 
+    background-image: url(images/pink_rice.webp);
+    background-repeat: repeat;
     font-family: 'Abril Fatface', serif;
     font-size: 30px;
     text-align: justify;
@@ -44,7 +62,6 @@ p{
 
 }
 footer{     
-    color: darkslategrey;
     padding: 30px;
 }
 
@@ -57,7 +74,6 @@ header{
 
 section{    
     border: 1px solid gainsboro;
-    background-color: lightslategray;
     margin: 30px;
     color: black;
     padding: 30px;
